@@ -1,0 +1,15 @@
+[package]
+name = "medical_record_management"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MedicalRecordManagement = '0xd9c123b7784bb36ea510e8a8201292a81f409870778d8dec6f10ca3b996cdd1b'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
